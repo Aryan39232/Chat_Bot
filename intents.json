@@ -1,0 +1,52 @@
+{
+    "intents":[
+        {
+            "tag":"greeting",
+            "patterns":[ "Hello" , "hii" , "hey" , "wake up" ],
+            "responses":[ "Hello sir." ]
+        },
+        {
+            "tag":"breakup",
+            "patterns":[ "bye" , "good by" , "see you later" , "sleep" ],
+            "responses":[ "Bye sir.", "I am going" ]
+        },
+        {
+            "tag":"indentity",
+            "patterns":[ "your name" , "what is your name"],
+            "responses":[ "Jarvis", "My name is jarvish" ]
+        },
+        {
+            "tag":"health",
+            "patterns":[ "how are you" , "how you" , "Are you good"],
+            "responses":[ "Jarvis", "An A.I Assistant" ]
+        },
+        {
+            "tag":"time",
+            "patterns":["what is time" , "time" , "what's the time"],
+            "responses":["time"]
+        },
+        {
+            "tag":"date",
+            "patterns":["what is date" , "date" , "what's the date"],
+            "responses":["date"]
+        },
+        {
+            "tag":"day",
+            "patterns":["what is day" , "day" , "what's the day"],
+            "responses":["day"]
+        },
+        {
+            "tag":"wikipedia",
+            "patterns":["what is " , "about" , "what's" , "wikipedia"],
+            "responses":["wikipedia"]
+        },
+        {
+            "tag":"google",
+            "patterns":["google search" , "google" , "search" ],
+            "responses":["google"]
+        }
+
+        
+
+    ]
+}
