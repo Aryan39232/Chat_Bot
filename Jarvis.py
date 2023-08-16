@@ -36,6 +36,7 @@ from Task import InputExecution
 
 def Main():
     sentence = Listen()
+    result = str(sentence)
     if sentence == "bye":
         exit()
 
@@ -62,9 +63,9 @@ def Main():
                 elif "day" in replay:
                     NonInputExecution(replay)                        
                 elif "wikipedia" in replay:
-                    InputExecution(replay , sentence)                            
+                    InputExecution(replay , result)                            
                 elif "google" in replay:
-                    InputExecution(replay , sentence)                                
+                    InputExecution(replay , result)                                
                 else:
                     Say(replay)
 

@@ -38,6 +38,6 @@ def InputExecution(tag , query):
 
     elif "google" in tag:
         query = str(query).replace("google" , "").replace("search" ,"")
-        query = query.replace
+        query = query.replace("search" , "")
         import pywhatkit
         pywhatkit.search(query)
