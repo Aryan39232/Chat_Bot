@@ -2,8 +2,8 @@
     "intents":[
         {
             "tag":"greeting",
-            "patterns":[ "Hello" , "hii" , "hey" , "wake up" ],
-            "responses":[ "Hello sir." ]
+            "patterns":[ "who are you", "what is your name","what are you", "tell me about yourself"],
+            "responses":[ "Sir, i am your Grid assistant" ]
         },
         {
             "tag":"breakup",
@@ -21,13 +21,18 @@
             "responses":[ "Jarvis", "An A.I Assistant" ]
         },
         {
+            "tag":"thank",
+            "patterns":["thankyou walter", "thank you","good job", "good job walter", "nice job"],
+            "responses":["Your welcome sir.", "My pleasure.", "Happy to help, sir"]
+        },
+        {
             "tag":"time",
             "patterns":["what is time" , "time" , "what's the time"],
             "responses":["time"]
         },
         {
             "tag":"date",
-            "patterns":["what is date" , "date" , "what's the date"],
+            "patterns":["what is date" ,"what is the date", "date" , "what's the date"],
             "responses":["date"]
         },
         {

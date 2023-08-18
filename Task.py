@@ -6,7 +6,7 @@ def Time():
     time = datetime.datetime.now().strftime("%H:%M")
     Say(time)
 
-def Date():  # Correct function name to "Date" instead of "Dime"
+def Date(): 
     date = datetime.date.today().today()
     Say(date)
 
@@ -20,7 +20,7 @@ def NonInputExecution(query):
 
     if "time" in query:
         Time()
-    elif "date" in query:  # Change "data" to "date"
+    elif "date" in query: 
         Date()
     elif "day" in query:
         Day()

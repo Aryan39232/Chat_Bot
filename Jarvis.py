@@ -56,9 +56,10 @@ def Main():
         for intent in intents['intents']:
             if tag == intent["tag"]:
                 replay = random.choice(intent["responses"])
+                print(replay)
                 if "time" in replay:
                     NonInputExecution(replay)
-                elif "data" in replay:
+                elif "date" in replay:
                     NonInputExecution(replay)
                 elif "day" in replay:
                     NonInputExecution(replay)                        
